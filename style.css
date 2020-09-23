@@ -5,12 +5,13 @@
  * {
     padding: 0;
     margin: 0;  
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.8rem;
+    font-family: Helvetica, 'Times New Roman', Times, serif;
+    font-size: 1rem;
 }
 header {
-    margin-left: 32%;
-    padding-bottom: 29%;
+    margin-left: 5%;
+    padding-bottom: 10%;
+    padding-top: 10%;
 }
 h1 {
     font-size: 2.3rem;
@@ -63,10 +64,10 @@ h5 {
 
 #mainImg {
     border-radius: 100%;
-    margin-left: 20%;
-    margin-top: 15%;
-    margin-bottom: 5%;
-    width: 60%;
+    margin-left: 10%;
+    margin-top: 20%;
+    margin-bottom: 3%;
+    width: 80%;
 }
 .blackBar {
     background-color: black;
@@ -85,22 +86,25 @@ h5 {
     text-align: justify;
 }
 #interest {
-    margin-top: 40%;
     width: 100%;
 }
 #pictogrammes {
     display: flex;
-    border-radius: 100%;
     margin-top: 10%;
     margin-bottom: 0px;
     justify-content: space-around;
     padding-bottom: 10%;
-    color:black;
+}
+.round {
+    border: black 1px solid;
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+    border-radius: 100%;
 }
 .fa-hiking, .fa-basketball-ball, .fa-book-reader {
     
     font-size: 3rem;
-    border: 1px  rgb(55, 140, 194) solid;
     padding-right: 1%;
 }
 
@@ -147,6 +151,7 @@ h5 {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
+    padding-bottom: 20px;
 }
 .recommandationsChild {
     width:40%;   
@@ -158,10 +163,11 @@ h5 {
     margin-left: 4%;
     background-color:  rgb(194, 93, 26);
     margin-bottom: 3%;
+    margin-top: 1%;
 }
 #orangeSeparationXs {
     height: 1px;
-    width: 10%;
+    width: 9%;
     background-color:  rgb(194, 93, 26);
     margin-top: 0.5%;
 
@@ -174,6 +180,9 @@ h5 {
 
 
  @media only screen and (max-width: 768px), (orientation: portrait) {
+    * {
+        font-size: 0.8rem;
+    }
     #main-page {
         display: flex;
         flex-direction: column;
@@ -195,6 +204,13 @@ h5 {
     }
     .fa-hiking, .fa-basketball-ball, .fa-book-reader {
         width: 5%;
+    }
+    .round {
+        border: black 1px solid;
+        width: 40px;
+        height: 40px;
+        padding: 7px;
+        border-radius: 100%;
     }
   }
 
