@@ -64,16 +64,17 @@ h5 {
 
 #mainImg {
     border-radius: 100%;
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: 20%;
     margin-bottom: 3%;
-    width: 80%;
+    width: 60%;
 }
 .blackBar {
     background-color: black;
     color:  rgb(194, 93, 26);
     text-align: center;
     margin-bottom: 5%;
+    padding-top: 5px;
     width: 100%;
 
 }
@@ -106,6 +107,10 @@ h5 {
     
     font-size: 3rem;
     padding-right: 1%;
+    margin-left: 1px;
+}
+.fa-basketball-ball {
+    line-height: 2px;
 }
 
 /*************************************************
@@ -134,12 +139,17 @@ h5 {
     width: 30%;
     display: flex;
 }
-
+h5 {
+    font-size: 0.9rem;
+}
 .formationContent {
     width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+.formationContent p {
+    font-size: 0.8rem;
 }
 .lineCV {
     display: flex;
@@ -167,7 +177,7 @@ h5 {
 }
 #orangeSeparationXs {
     height: 1px;
-    width: 9%;
+    width: 7%;
     background-color:  rgb(194, 93, 26);
     margin-top: 0.5%;
 
@@ -201,9 +211,12 @@ h5 {
     }
     #mainImg {
         width: 60%;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
     .fa-hiking, .fa-basketball-ball, .fa-book-reader {
         width: 5%;
+        margin-left: 1px;
     }
     .round {
         border: black 1px solid;
